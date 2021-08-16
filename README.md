@@ -1,2 +1,10 @@
 # web-340
-Node.js repository
+
+Repository for Node.js
+
+# 340 Node JS
+
+## Contributors
+
+- Professor Richard Krasso
+- Mark Palmer
