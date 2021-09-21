@@ -1,0 +1,30 @@
+html {
+  height: 100vh;
+}
+body {
+  min-height: 100vh;
+}
+
+.main {
+  align-items: center;
+}
+
+.jumbotron {
+  background-image: url("/ems.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  min-height: 600px;
+}
+.jumbotron h1 {
+  color: aliceblue;
+}
+
+footer {
+  margin-top: 1em;
+  padding-bottom: 6em;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(73, 73, 150);
+}

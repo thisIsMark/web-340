@@ -11,14 +11,17 @@ let app = express();
 app.set("views", path.resolve(__dirname, "views"));
 app.set("view engine", "ejs");
 
+app.use(express.static(path.join(__dirname, "public")));
 app.use(logger("short"));
 
 // Home Page Routing
 app.get("/", function(req, res) {
     res.render("index", {
-        title: "Welcome to the Employment Management System."
+        title: "EMS",
+        headliner: "Welcome to the Employee Management System!"
     });
 });
+
 
 // Create and run server on port 3000
 http.createServer(app).listen(3000, function() {
